@@ -131,6 +131,7 @@ if ( ! class_exists( 'Vimeography' ) ) {
       require_once VIMEOGRAPHY_PATH . 'lib/robots.php';
       require_once VIMEOGRAPHY_PATH . 'lib/shortcode.php';
       require_once VIMEOGRAPHY_PATH . 'vimeography-bugsauce/vimeography-bugsauce.php';
+      require_once VIMEOGRAPHY_PATH . 'vimeography-videopartnerTheme/vimeography-videopartnertheme.php';
 
       if ( is_admin() ) {
         require_once VIMEOGRAPHY_PATH . 'lib/admin/scripts.php';
